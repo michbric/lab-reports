@@ -1,0 +1,59 @@
+# This code installs the turtle library
+!wget -O turtle_setup.py 'https://raw.githubusercontent.com/williamedwardhahn/fractal25/refs/heads/main/turtle_setup.py'
+from turtle_setup import *
+
+
+# Initialize the turtle
+initializeTurtle()
+showturtle()
+color('blue')
+bgcolor('white')
+
+# Move to a suitable starting position
+jump(200, 200)  # Adjust these values as needed to center the square
+face(0)  # Ensure the turtle is facing up
+
+
+forward(100)
+
+
+# Display the drawing
+show()
+
+
+
+
+initializeTurtle()
+showturtle()
+color('blue')
+bgcolor('white')
+
+jump(200, 200)
+face(0)
+
+
+forward(100)
+right(90)
+
+show()
+
+
+
+
+# Initialize the turtle
+initializeTurtle()
+showturtle()
+color('blue')
+bgcolor('white')
+
+# Move to a suitable starting position
+jump(200, 200)  # Adjust these values as needed to center the square
+face(0)  # Ensure the turtle is facing up
+
+# Draw a simple square
+for _ in range(4):
+    forward(100)
+    right(90)
+
+# Display the drawing
+show()
